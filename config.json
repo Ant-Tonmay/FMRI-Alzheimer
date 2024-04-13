@@ -1,0 +1,25 @@
+{
+  "descriptions": [
+   {
+      "datatype": "anat",
+      "suffix": "T1w",
+      "criteria": {
+         "SeriesDescription": "t1*"
+      },
+      "sidecar_changes": {
+        "ProtocolName": "T1"
+      }
+    },
+    {
+      "datatype": "func",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SeriesDescription": "*Resting State fMRI*"
+      },
+      "customHeader": {
+        "TaskName": "rest"
+      },
+      "suffix": "bold"
+    }
+  ]
+}

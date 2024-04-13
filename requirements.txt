@@ -1,0 +1,3 @@
+numpy
+dcm2bids
+coloredlogs
